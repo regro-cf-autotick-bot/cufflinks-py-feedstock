@@ -14,12 +14,15 @@ This library binds the power of plotly with the flexibility of pandas for easy p
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cufflinks-py-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cufflinks-py-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cufflinks-py-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cufflinks-py-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cufflinks-py/badges/version.svg)](https://anaconda.org/conda-forge/cufflinks-py)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cufflinks-py/badges/downloads.svg)](https://anaconda.org/conda-forge/cufflinks-py)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cufflinks--py-green.svg)](https://anaconda.org/conda-forge/cufflinks-py) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cufflinks-py.svg)](https://anaconda.org/conda-forge/cufflinks-py) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cufflinks-py.svg)](https://anaconda.org/conda-forge/cufflinks-py) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cufflinks-py.svg)](https://anaconda.org/conda-forge/cufflinks-py) |
 
 Installing cufflinks-py
 =======================
