@@ -1,6 +1,6 @@
 {% set name = "cufflinks-py" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "59f1bae67aaa5042c8f9f94caba44b9b8e6e530ce9e81f6e06b643aca253d2f4" %}
+{% set version = "0.16" %}
+{% set sha256 = "ed79e16966edb03e35e900615b08bf471990cb4a1e933a2abe2c56f2ca537498" %}
 
 package:
   name: {{ name|lower }}
