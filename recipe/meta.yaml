@@ -1,6 +1,6 @@
 {% set name = "cufflinks-py" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "59f1bae67aaa5042c8f9f94caba44b9b8e6e530ce9e81f6e06b643aca253d2f4" %}
+{% set version = "0.17.0" %}
+{% set sha256 = "a30724ff73fa83c80c29c701b0d6426aea562d8aed97f49d3cc9c209eadb8ac7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
