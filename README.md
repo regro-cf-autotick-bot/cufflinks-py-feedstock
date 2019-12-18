@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@cshaley](https://github.com/cshaley/)
-* [@sannykr](https://github.com/sannykr/)
-
+* [@dhirschfeld](https://github.com/dhirschfeld/)
+* [@timkpaine](https://github.com/timkpaine/)
