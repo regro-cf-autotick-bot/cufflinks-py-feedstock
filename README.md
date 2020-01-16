@@ -1,3 +1,9 @@
+### This repository has been archived as a duplicate of 
+[`python-cufflinks`](https://github.com/conda-forge/python-cufflinks-feedstock). 
+Please change all references in your dependencies to `python-cufflinks`!
+
+----
+
 About cufflinks-py
 ==================
 
