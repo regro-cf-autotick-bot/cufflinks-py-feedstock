@@ -1,6 +1,6 @@
 {% set namespace = "python" %}
 {% set name = "cufflinks" %}
-{% set version = "0.16" %}
+{% set version = "0.17.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ed79e16966edb03e35e900615b08bf471990cb4a1e933a2abe2c56f2ca537498
+  sha256: 48c1b3406dc030004121966489eebc5518cea70fd4e3f16379b491328501a644
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: license.txt
-  summary: 'Productivity Tools for Plotly + Pandas'
+  summary: Productivity Tools for Plotly + Pandas
 
 extra:
   recipe-maintainers:
